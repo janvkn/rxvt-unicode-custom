@@ -4,7 +4,7 @@
 # Contributor: tobias <tobias@archlinux.org>
 # Contributor: dibblethewrecker dibblethewrecker.at.jiwe.dot.org
 
-pkgbase=rxvt-unicode
+pkgbase=rxvt-unicode-custom
 pkgname=('rxvt-unicode-custom' 'rxvt-unicode-custom-terminfo')
 pkgver=9.30
 pkgrel=1
