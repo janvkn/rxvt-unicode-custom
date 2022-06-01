@@ -1,4 +1,5 @@
-# Maintainer: Levente Polyak <anthraxx[at]archlinux[dot]org>
+# Maintainer: Jan Van der Veken <janvkn[at]gmail[dot]com>
+# Contributor: Levente Polyak <anthraxx[at]archlinux[dot]org>
 # Contributor: Sébastien Luttringer
 # Contributor: Angel Velasquez <angvp@archlinux.org>
 # Contributor: tobias <tobias@archlinux.org>
