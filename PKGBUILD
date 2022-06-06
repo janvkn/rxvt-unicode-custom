@@ -8,7 +8,7 @@
 pkgbase=rxvt-unicode-custom
 pkgname=('rxvt-unicode-custom' 'rxvt-unicode-custom-terminfo')
 pkgver=9.30
-pkgrel=2
+pkgrel=3
 arch=('x86_64')
 url='http://software.schmorp.de/pkg/rxvt-unicode.html'
 license=('GPL')
@@ -36,6 +36,7 @@ prepare() {
   cd rxvt-unicode-${pkgver}
   patch -p0 -i ../font-width-fix.patch
   patch -p0 -i ../line-spacing-fix.patch
+  rm -f src/perl/confirm-paste
 }
 build() {
   cd rxvt-unicode-${pkgver}

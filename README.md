@@ -13,5 +13,6 @@ The main differences with the official PKGBUILD are:
 * Re-enabled some frills in the configure script
 * Integrated the font-width-fix patch
 * Integrated the line-spacing-fix patch
+* Remove the confirm-paste extension
 
 The generated packages are called `rxvt-unicode-custom` and `rxvt-unicode-custom-terminfo`. They will conflict with the official packages, so you will be prompted to uninstall them.
