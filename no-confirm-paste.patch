@@ -1,0 +1,11 @@
+--- src/urxvt.pm	2022-06-17 20:52:41.816842929 +0200
++++ src/urxvt.pm.noconfirmpaste	2022-06-17 20:52:38.936842857 +0200
+@@ -794,7 +794,7 @@
+          if ($_ eq "default") {
+ 
+             $ext_arg{$_} = []
+-               for qw(selection option-popup selection-popup readline searchable-scrollback confirm-paste);
++               for qw(selection option-popup selection-popup readline searchable-scrollback);
+ 
+             for ($TERM->_keysym_resources) {
+                next if /^(?:string|command|builtin|builtin-string|perl)/;
